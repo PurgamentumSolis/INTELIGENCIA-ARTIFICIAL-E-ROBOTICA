@@ -1,18 +1,23 @@
 {"intents":[
-  { "tag": "saudacao",
+  { //Respostas para saudações
+    "tag": "saudacao",
     "patterns":["Ola","Opa","Oi", "tudo bem"],
     "responses": ["Oi\n","Olá\n"]
   },
-  { "tag": "despedida",
+  { 
+    // Respostas para despedidas
+    "tag": "despedida",
     "patterns":["valeu","tchau","Obrigado","tks","nao"],
     "responses": ["Até breve\n","Falou\n"]
   },
   {
+    // sobre o pipe
     "tag": "sobre_pipe",
     "patterns": ["O que é o sistema PIPE?", "Pode me explicar sobre o PIPE?", "Como funciona o PIPE?"],
     "responses": ["O Programa FAPESP Pesquisa Inovativa em Pequenas Empresas - PIPE foi criado em 1997 e destina-se a apoiar, com a concessão de recursos não reembolsáveis, a execução de pesquisa científica e tecnológica inovativa em pequenas empresas. objetivos do PIPE:\n a) Apoiar a pesquisa em ciência e tecnologia como instrumento para promover a inovação tecnológica, promover o desenvolvimento empresarial e aumentar a competitividade das pequenas empresas; \n b) Criar condições para incrementar a contribuição da pesquisa para o desenvolvimento econômico e social;\n c) Induzir o aumento do investimento privado em pesquisa tecnológica;\n d) Possibilitar que pequenas empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação tecnológica;\n e) Contribuir para a formação e o desenvolvimento de núcleos de desenvolvimento tecnológico nas pequenas empresas e para a colocação de pesquisadores no mercado de trabalho empresarial.\n"]
   },
   {
+    // Outras intenções e respostas estão aqui, seguindo a mesma estrutura
     "tag": "requisitos_pipe",
     "patterns": ["Quais são os requisitos para participar do PIPE?", "O que preciso para me inscrever no PIPE?"],
     "responses": ["O Pesquisador Responsável pela proposta submetida no Programa PIPE deverá:\n a) Possuir vínculo empregatício, ser sócio ou possuir contrato formal com a pequena empresa.\n a.1) Caso o vínculo não seja empregatício ou societário, deverá existir um acordo entre o pesquisador e a empresa em que sejam estabelecidas as condições em que se dará o relacionamento entre a empresa e o pesquisador, acesso à infraestrutura da empresa para o desenvolvimento da pesquisa para inovação, propriedade intelectual, sigilo etc.\n b) Dedicar pelo menos 24 horas semanais à execução do projeto de pesquisa para inovação. A carga horária padrão considerada pela FAPESP é de 40 horas semanais. Portanto, o número de horas dedicadas pelo Pesquisador Responsável ao projeto PIPE somadas às horas dedicadas às outras atividades devem ser no máximo 40 por semana.\n b.1) O sucesso dos projetos PIPE está diretamente relacionado à dedicação do Pesquisador Responsável e da sua equipe. Essa dedicação envolve as atividades previstas no projeto original e a solução de vários problemas (imprevistos) que – a experiência mostra – aparecem ao longo do desenvolvimento do projeto. Ademais, o sucesso dos empreendimentos baseados em projetos PIPE demanda do pesquisador e da empresa atenção redobrada com relação a vários outros aspectos: da propriedade intelectual aos custos de produção, passando pelos fornecedores e pelos clientes, pelos aspectos regulatórios, por questões comerciais e pelo monitoramento das soluções concorrentes. Por isso, a FAPESP exige dos Pesquisadores Responsáveis uma dedicação ao projeto compatível com os objetivos esperados.\n b.2) Nos casos em que o pesquisador recebe Bolsa PE, atividades como participação pontual em outros projetos de pesquisa, aulas ou atividades de consultoria podem ser admitidas, desde que sejam compatíveis com o programa e não excedam 8 horas semanais. A realização destas atividades deve ser autorizada previamente pela FAPESP, conforme item 8.1.e.1.4.ii.\n c) Estar em dia com a FAPESP (emissão de pareceres e devolução de processo, entrega de Relatório Científico e Prestação de Contas). Não serão habilitadas para análise as propostas cujo Beneficiário ou Responsável esteja em débito com a FAPESP há mais de 60 (sessenta) dias.\n d) É vedado a um mesmo pesquisador submeter mais de uma proposta PIPE para análise da FAPESP simultaneamente. A submissão de uma nova proposta só pode ser feita após a conclusão da análise da proposta anterior.\n e) O Pesquisador Responsável deverá residir no estado de São Paulo, durante toda a vigência do Auxílio.\n"]
